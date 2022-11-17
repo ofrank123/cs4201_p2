@@ -1,25 +1,25 @@
-main = att ||
-       atf ||
-       aft ||
-       aff ||
-       ott ||
-       otf ||
-       oft ||
-       off ||
-       nt ||
-       nf ||
-       ltt ||
-       ltf ||
-       gtt ||
-       gtf ||
-       ltet ||
-       ltef ||
-       gtet ||
-       gtef ||
-       eqt ||
-       eqf ||
-       neqt ||
-       neqf;
+main = att &&
+       (not atf) &&
+       (not aft) &&
+       (not aff) &&
+       ott &&
+       otf &&
+       oft &&
+       (not off) &&
+       (not nt) &&
+       nf &&
+       ltt &&
+       (not ltf) &&
+       gtt &&
+       (not gtf) &&
+       ltet &&
+       (not ltef) &&
+       gtet &&
+       (not gtef) &&
+       eqt &&
+       (not eqf) &&
+       neqt &&
+       (not neqf);
 
 att = true && true;
 atf = true && false;
