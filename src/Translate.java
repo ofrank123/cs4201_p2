@@ -23,7 +23,7 @@ public class Translate {
             System.exit(-1);
         }
 
-        try (InputStream preludeStream = new FileInputStream("src/prelude.hs"); // Load in prelude file
+        try (InputStream preludeStream = new FileInputStream("prelude.hs"); // Load in prelude file
              InputStream inputStream = new FileInputStream(inputFile)) { // Load in input file
 
             // Lex + Parse file using ANTLR
