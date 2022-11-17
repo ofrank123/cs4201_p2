@@ -1,0 +1,1 @@
+main = even 10;
